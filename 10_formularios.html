@@ -1,0 +1,56 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<a href= "00_Index.html"> Inicio </a>
+
+</head>
+
+
+
+
+<body>
+	<h1>Crear formularios</h1>
+	<h2>Los formularios son muy importantes para recopilar información</h2>
+	
+	
+	<form action="ejemplo.php" method="get">
+	Nombre:<input type="text" name="usuario" size="15" maxlength="30"> <br>
+	Contraseña:<input type="password" name="password" size="15" maxlength="10"><br>
+	
+	Comentarios:<br>
+	<textarea name="Comentarios" cols="20" rows="10"> </textarea>
+	
+	<hr>
+	Servicio de musica usado<br>
+	
+	<input type="checkbox" name="Servicio" value="Itunes"> Itunes <br>
+	<input type="checkbox" name="Servicio" value="Apple Music"> Apple Music <br>
+	<input type="checkbox" name="Servicio" value="Spotify"> Spotify
+	
+	<hr>
+	
+	Seleccione su genero:<br>
+	<input type="radio" name="genero" value="Masculino"> Masculino<br>
+	<input type="radio" name="genero" value="Femenino"> Femenino
+	
+	<hr>
+	
+	Seleccione el dispositvo que utiliza para escucar musica:<br>
+	<select name="dispositivo">
+		<option value="ipod">ipod</option>
+		<option value="Movil">Movil</option>
+		<option value="Ordenador">Ordenador</option>
+		<option value="Radio">Radio</option>
+		<option value="Otro">Otro</option>
+	</select>
+	
+	<br>
+	
+	<input type="submit" name="Subcripción" value="Inscripción">
+	
+	</form>
+
+</body>
+
+
+</html>
